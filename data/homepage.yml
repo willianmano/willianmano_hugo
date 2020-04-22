@@ -1,0 +1,141 @@
+# showcase
+showcase:
+  enable: true
+  title: "Hello, I’m Willian Mano."
+  subtitle: "Full Stack Developer"
+  description: "I am a Computer Engineer, PHP lover, and passionate about Web and Mobile Development, Agile, and software engineering in general."
+  image:
+    x: "img/showcase/showcase.png"
+    _2x: "img/showcase/showcase@2x.png"
+  imageMobile:
+    x: "img/showcase/showcase-mobile.jpg"
+
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Contact"
+    URL: "mailto:willianmano@conecti.me"
+
+  socialLinks:
+    - icon: "linkedin"
+      URL: "https://www.linkedin.com/in/willianmano/?locale=en_US"
+
+    - icon: "github"
+      URL: "https://github.com/willianmano"
+
+    - icon: "instagram"
+      URL: "https://www.instagram.com/o_manobjj/"
+
+    - icon: "facebook"
+      URL: "https://www.facebook.com/willianmano"
+
+# about
+about:
+  enable: true
+  title: "Who am I?"
+  content: '<p class="lead">Computer Engineer by Universidade Estadual do Maranhão and also graduated on Systems Analysis and Development by Faculdade do Maranhão. Willian started with moodle in 2009, developing plugins, integrations and everything involving the LMS.</p>
+    <p class="lead">As a Zend PHP Certified Engineer and Scrum Master Certified, his job is to work every day with the most modern technologies and methodologies of software development.</p>'
+  button:
+    icon: "icon-linkedin-line"
+    btnText: "About Me"
+    URL: "https://www.linkedin.com/in/willianmano/?locale=en_US"
+  image:
+    x: "img/who-am-i/user-picture.png"
+    _2x: "img/who-am-i/user-picture@2x.png"
+
+# education
+education:
+  enable: true
+  title: "Education"
+  items:
+    - university: "Universidade Estadual do Maranhão"
+      year: "2018"
+      degree: "Computer Engineering"
+
+    - university: "Faculdade do Maranhão"
+      year: "2016"
+      degree: "System Analysis and Development"
+
+# certification
+certification:
+  enable: true
+  title: "Certifications"
+  items:
+    - title: "Zend Certified PHP Engineer"
+      license: "ZEND028770"
+      link: "https://www.zend-zce.com/en/yellow-pages/ZEND028770"
+
+    - title: "Certified Scrum Master"
+      license: "000570341"
+      link: "https://www.scrumalliance.org/community/profile/waraujo3"
+
+    - title: "iMasters Certified Professional - PHP - Good practices"
+      license: "1076"
+      link: "https://certificacao.imasters.com.br/certificates/1076"
+
+# experience
+experience:
+  enable: true
+  title: "Experience"
+  description: "Over 12+ years of experience working with companies from all over the world. I design & develop digital products to help businesses and improve people's lives."
+  button:
+    icon: "icon-linkedin-fill"
+    btnText: "Linkedin"
+    URL: "https://www.linkedin.com/in/willianmano/?locale=en_US"
+
+  items:
+    - title: "Software Development Supervisor"
+      company: "Núcleo de Tecnologias Para Educação(UEMANET)"
+      duration: "2009 - current"
+
+    - title: "Technical Assessor"
+      company: "Ministério Público do Estado do Maranhão(MPMA)"
+      duration: "2017 - 2019"
+
+    - title: "Transparency Advisor"
+      company: "Secretaria de Estado de Transparência e Controle do Maranhão"
+      duration: "2015 - 2016"
+
+# Client & Work
+client_and_work:
+  title: "Most relevant open source projects"
+  enable: true
+
+  works:
+    - title: "Theme Moove"
+      description: "Moove it’s a Moodle’s theme that makes online environments more clean and intuitive for learners and educators."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Moodle's theme"
+        URL: "https://willianmano.github.io/moove"
+      image:
+        x: "img/works/moove.jpg"
+        _2x: "img/works/moove@2x.jpg"
+      is_even: true
+
+    - title: "Harpia - Academic system integrated to Moodle"
+      description: "An academic system built on top of Laravel and fully integrated with the Moodle LMS."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Software development"
+        URL: "https://github.com/uemanet/harpia"
+      image:
+        x: "img/works/harpia.jpg"
+        _2x: "img/works/harpia@2x.jpg"
+      is_even: false
+
+# contact
+contact:
+  enable: true
+  title: "Contact"
+  phone:
+    title: "Phone Number"
+    number: "+55 (98) 99223-1059"
+  email:
+    title: "Email"
+    email: '<a href="mailto:willianmano@conecti.me">willianmano@conecti.me</a>'
+  address:
+    title: "Address"
+    address: "São Luís - MA<br />Brazil"
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Send Message"

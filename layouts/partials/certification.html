@@ -1,0 +1,24 @@
+{{ if .Site.Data.homepage.certification.enable }}
+<section class="section section--border-bottom rad-animation-group">
+    <div class="container">
+        <div class="row rad-fade-down">
+            <div class="col-12">
+                <h2>{{ .Site.Data.homepage.certification.title }}</h2>
+                <div class="row pt-2 pt-md-4">
+                    {{ range .Site.Data.homepage.certification.items }}
+                    <div class="col-12 col-sm-4 mb-4 mb-sm-0">
+                        <div class="education">
+                            <div class="education__title">{{ .title }}</div>
+                            <div class="education__degree">
+                                License ID: {{ .license }}
+                            </div>
+                            <div class="education__date mt-2"><a target="_blank" href="{{ .link }}">Certification link</a></div>
+                        </div>
+                    </div>
+                    {{ end }}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{{ end }}
